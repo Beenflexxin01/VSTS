@@ -156,6 +156,10 @@
     background-color: rgb(93, 93, 205);
   } */
 
+  .main-nav {
+    height: 50vh;
+  }
+
   .text-header {
     font-size: 2rem;
   }
@@ -175,5 +179,13 @@
 
   .tertiary-header {
     font-size: 1.7rem;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+
+  .f-t {
+    width: 100%;
   }
 }

@@ -45,10 +45,10 @@ function MainNav() {
             </li>
           </div>
         </ul>
-      </nav>
       <h1 className=" text-header">
         Welcome To Vertiline Synergy Training School.
       </h1>
+      </nav>
     </>
   );
 }

@@ -21,11 +21,11 @@ li {
   list-style: none;
 }
 
-header {
-  height: 100vh;
-  background-image: url("./images/p9.jpg");
-  background-size: cover;
-  position: relative;
+.page-header {
+  font-size: 4rem;
+  text-align: center;
+  width: 30%;
+  margin: auto;
 }
 
 .container {
@@ -34,20 +34,19 @@ header {
 }
 
 .main-nav {
-  background-color: #000;
-  padding: 1rem;
+  height: 100vh;
+  background-image: url("./images/p9.jpg");
+  background-size: cover;
+  position: relative;
   position: sticky;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
 }
 
-.main-nav-ul{
+.main-nav-ul {
   display: flex;
   align-items: center;
   gap: 4rem;
   justify-content: space-between;
-  margin:0 7rem ;
+  margin: 0 7rem;
 }
 
 .burger-menu {
