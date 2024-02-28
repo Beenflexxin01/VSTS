@@ -53,6 +53,14 @@ function MainNav() {
                 CONTACT
               </NavLink>
             </li>
+            <li className="main-nav-li">
+              <NavLink
+                to="/login"
+                className="nav-link"
+                onClick={toggleOffMenuBar}>
+                Login
+              </NavLink>
+            </li>
           </div>
         </ul>
        

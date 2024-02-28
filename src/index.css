@@ -41,14 +41,10 @@ li {
 }
 
 .header-img {
-  height: 80vh;
+  height: 60vh;
   width: 80%;
   margin: 0 18rem;
 }
-
-/* .header-image {
-  margin: 0 8rem;
-} */
 
 .main-nav-ul {
   display: flex;
@@ -349,6 +345,47 @@ li {
 
 .m-b {
   margin-bottom: 7rem;
+}
+
+.input-login {
+  padding: 2rem;
+  width: 50rem;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.li-form {
+  margin: 3rem 0;
+}
+
+.form-login {
+  margin: auto;
+  margin: 0 45rem;
+}
+
+.login-text {
+  font-size: 1.3rem;
+}
+
+.sign-up {
+  text-align: center;
+}
+
+.f-h {
+  text-align: center;
+}
+
+.login-btn {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.l-g {
+  text-align: center;
 }
 
 .socials {

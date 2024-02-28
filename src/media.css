@@ -25,6 +25,10 @@
     width: 100%;
   }
 
+  .form-login {
+    margin: 0 20rem;
+  }
+
   .btn {
     margin-left: 20rem;
   }
@@ -87,6 +91,10 @@
     flex-direction: column;
     top: 15px;
     height: 2.4rem;
+  }
+
+  .form-login {
+    margin: 0 10rem;
   }
 
   .hidden {
@@ -186,6 +194,10 @@
 
   .grid-3 {
     display: block;
+  }
+
+  .form-login {
+    margin: 0 5rem;
   }
 
   .primary-header,
