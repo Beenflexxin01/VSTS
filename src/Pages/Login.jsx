@@ -32,7 +32,7 @@ function Login() {
                 <Link to='/forgot-password'>forgot password?</Link>
               </p>
               <p className="login-text">
-                <Link to="/sign-up" className="link">
+                <Link to="/sign-up">
                   Sign Up
                 </Link>
               </p>

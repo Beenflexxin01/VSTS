@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import p9 from "../../images/logo 1.png";
 function Header() {
   return (
@@ -14,13 +15,15 @@ function Header() {
               reputable and qualified tutors
             </p>
 
-            <button className="join">Get Started</button>
+            <button className="join">
+              <Link to="/login" className="link">Get Started</Link>
+            </button>
           </div>
-        <div className="grid-2-cols header-image">
-          <img src={p9} alt="" className="header-img hidden" />
+          <div className="grid-2-cols header-image">
+            <img src={p9} alt="" className="header-img hidden" />
+          </div>
         </div>
       </div>
-        </div>
     </>
   );
 }

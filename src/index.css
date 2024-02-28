@@ -104,11 +104,15 @@ li {
   outline: none;
   padding: 2rem;
   border-radius: 9px;
-  color: #fff;
   font-weight: bold;
   font-size: 2rem;
   margin: 4rem 0;
   width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .grid-2 {
@@ -157,8 +161,8 @@ li {
 }
 
 .feature {
-  font-size: 2.2rem;
-  margin-left: 2rem;
+  font-size: 1.8rem;
+  margin-left: 3rem;
 }
 
 .view:hover,
@@ -263,8 +267,8 @@ li {
 }
 
 .input {
-  padding: 1rem;
-  width: 40rem;
+  padding: 2rem;
+  width: 37rem;
   border: none;
   outline: none;
   border-radius: 9px;
@@ -300,7 +304,7 @@ li {
 }
 
 .btn {
-  width: 20%;
+  width: 90%;
   padding: 1rem;
   text-align: center;
   background-color: #ff6363;
@@ -308,9 +312,11 @@ li {
   outline: none;
   border-radius: 9px;
   color: #fff;
-  font-weight: 700;
-  margin-left: 30rem;
+  font-weight: bold;
+  font-size: 2rem;
   cursor: pointer;
+  margin: 0 4rem;
+  padding: 2rem;
 }
 
 .footer {

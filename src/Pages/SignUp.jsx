@@ -38,7 +38,7 @@ function SignUp() {
 
             <p className="login-text l-g">
               Already have an account?
-              <Link to="/login">log in</Link>`
+              <Link to="/login">log in</Link>
             </p>
           </form>
         </div>
