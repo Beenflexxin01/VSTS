@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import logo from "../images/logo.png";
+import logo from "../images/VSTS.png";
+
+// import logo from "../images/vsts.jpg";
 function MainNav() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,6 +39,14 @@ function MainNav() {
             </li>
             <li className="main-nav-li">
               <NavLink
+                to="/courses"
+                className="nav-link"
+                onClick={toggleOffMenuBar}>
+                COURSES
+              </NavLink>
+            </li>
+            <li className="main-nav-li">
+              <NavLink
                 to="/contact"
                 className="nav-link"
                 onClick={toggleOffMenuBar}>
@@ -45,9 +55,7 @@ function MainNav() {
             </li>
           </div>
         </ul>
-      <h1 className=" text-header">
-        Welcome To Vertiline Synergy Training School.
-      </h1>
+       
       </nav>
     </>
   );
