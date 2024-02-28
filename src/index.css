@@ -42,8 +42,13 @@ li {
 
 .header-img {
   height: 80vh;
-  width: 100%;
+  width: 80%;
+  margin: 0 18rem;
 }
+
+/* .header-image {
+  margin: 0 8rem;
+} */
 
 .main-nav-ul {
   display: flex;
@@ -87,16 +92,6 @@ li {
   margin-top: 3rem;
 }
 
-.m-g {
-  margin: 0 3rem;
-  padding: 0 3rem;
-}
-
-.m-t {
-  margin: 3rem;
-  padding: 3rem 0;
-}
-
 .text-header {
   font-size: 4rem;
   color: #000;
@@ -104,6 +99,7 @@ li {
 
 .header-text {
   font-size: 2rem;
+  text-align: justify;
 }
 
 .join {
@@ -115,8 +111,8 @@ li {
   color: #fff;
   font-weight: bold;
   font-size: 2rem;
-  margin: 4rem 20rem;
-  text-align: center;
+  margin: 4rem 0;
+  width: 100%;
 }
 
 .grid-2 {
