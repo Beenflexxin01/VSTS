@@ -58,12 +58,11 @@ function MainNav() {
                 to="/login"
                 className="nav-link"
                 onClick={toggleOffMenuBar}>
-                Login / Sign-Up
+                LOGIN
               </NavLink>
             </li>
           </div>
         </ul>
-       
       </nav>
     </>
   );
